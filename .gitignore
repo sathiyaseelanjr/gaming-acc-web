@@ -1,16 +1,19 @@
-# Python
-__pycache__/
-*.py[cod]
+# Ignore Python cache and environment
 venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables
 .env
 
-# Django
+# Ignore database files
 db.sqlite3
-/media/
-*.log
 
-# Node.js (React)
+# Ignore compiled and system files
+*.log
+.DS_Store
+
+# Ignore Node.js dependencies
 node_modules/
-build/
-dist/
-.env
+.next/
